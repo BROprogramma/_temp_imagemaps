@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Aanpak>
+		<SIKB0101-ID></SIKB0101-ID>
+		<Waarde>afdekkenVerontreiniging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beperken of ongedaan maken van blootstelling aan een verontreiniging in de bodem middels het wegnemen van de contactmogelijkheden door het aanbrengen van een afdeklaag c.q. leeflaag op de verontreinigde bodemlaag (conform Bal art 4.1241).</Omschrijving>
+	</Aanpak>
+	<Aanpak>
+		<SIKB0101-ID></SIKB0101-ID>
+		<Waarde>alternatieveSaneringsaanpak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beperken of ongedaan maken van blootstelling aan een verontreiniging in de bodem anders dan middels het afdekken van de verontreiniging of middels het verwijderen en afvoeren van grond. Een alternatieve aanpak is bijvoorbeeld in situ reiniging (maatwerkvoorschrift bij een MBA conform Bal art 2.13).</Omschrijving>
+	</Aanpak>
+	<Aanpak>
+		<SIKB0101-ID></SIKB0101-ID>
+		<Waarde>gecombineerdeSaneringsaanpak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Beperken of ongedaan maken van de blootstelling aan de verontreiniging in de bodem door een combinatie van het afdekken van de verontreiniging, het verwijderen en afvoeren van grond en/of het volgen van een alternatieve saneringsaanpak (conform Bal art 4.1240).</Omschrijving>
+	</Aanpak>
+	<Aanpak>
+		<SIKB0101-ID></SIKB0101-ID>
+		<Waarde>ontgravenMetSaneringsdoelstelling</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond verwijderen en afvoeren met als oogmerk een bodemverontreiniging weg te nemen (conform Bal art 4.1242).</Omschrijving>
+	</Aanpak>
+	<Aanpak>
+		<SIKB0101-ID></SIKB0101-ID>
+		<Waarde>ontgravenZonderSaneringsdoelstelling</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Graven in de bodem en afvoeren van ontgraven grond zonder het oogmerk om de een bodemverontreiniging weg te nemen (conform Bal paragraaf 4.120 en specifiek art 4.1233 en 4.1234 MKB bij graven &gt;I).</Omschrijving>
+	</Aanpak>
+</domeintabel>

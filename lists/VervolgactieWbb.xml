@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<VervolgactieWbb>
+		<SIKB0101-ID>1</SIKB0101-ID>
+		<Waarde>uitvoerenOrienterendOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een oriënterend onderzoek worden uitgevoerd naar de aard en ernst van de (mogelijke) verontreiniging. De basis voor dit onderzoek is het 'Protocol Oriënterend Onderzoek' (Sdu, 1993).</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>2</SIKB0101-ID>
+		<Waarde>uitvoerenNaderOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een nader onderzoek worden uitgevoerd om de omvang en ernst van de vastgestelde verontreiniging te bepalen. De basis voor dit onderzoek is het 'Protocol Nader onderzoek deel 1' (Sdu, 1995) of de 'Richtlijn nader onderzoek' (Sdu, 1995).</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>3</SIKB0101-ID>
+		<Waarde>uitvoerenAanvullendOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een aanvullend onderzoek worden uitgevoerd naar de aard en ernst van de (mogelijke) verontreiniging.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>4</SIKB0101-ID>
+		<Waarde>uitvoerenSaneringsOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet voor de vastgestelde verontreiniging een saneringsonderzoek worden uitgevoerd. In dit onderzoek worden een aantal saneringsvarianten tegen elkaar afgewogen en wordt een voorkeursvariant geadviseerd.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>5</SIKB0101-ID>
+		<Waarde>opstellenSaneringsplan</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet een saneringsplan voor de vastgestelde verontreiniging worden opgesteld. In dit plan wordt een saneringsvariant uitgewerkt.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>6</SIKB0101-ID>
+		<Waarde>uitvoerenSanering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Om de verontreiniging te verwijderen of te beheren moet worden gestart met de sanering.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>7</SIKB0101-ID>
+		<Waarde>aanbrengenTijdelijkeBeveiliging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Om bij de verontreiniging risico's voor de mens, ecologie en/of verspreiding weg te nemen moet een tijdelijke beveiliging zijn aangebracht of tijdelijke maatregelen zijn genomen.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>8</SIKB0101-ID>
+		<Waarde>uitvoerenEvaluatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet na het uitvoeren van de sanering een evaluatie worden opgesteld. In de evaluatie moet naar voren komen in hoeverre de saneringsdoelstellingen zijn gehaald die in het saneringsplan zijn geformuleerd.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>9</SIKB0101-ID>
+		<Waarde>uitvoerenActieveNazorg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming vindt na de sanering actieve nazorg plaats om de (rest)verontreiniging te beheersen en te beheren.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>10</SIKB0101-ID>
+		<Waarde>monitoring</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming wordt na de sanering de (rest)verontreiniging gemonitoord om deze te beheersen en te beheren.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>11</SIKB0101-ID>
+		<Waarde>registrerenRestverontreiniging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming is de achtergebleven verontreiniging na de sanering (restverontreiniging) geregistreerd in het BIS van de overheid, en daarnaast bij het Kadaster.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>13</SIKB0101-ID>
+		<Waarde>uitvoerenAanvullendOrienterendOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een aanvullend oriënterend onderzoek worden uitgevoerd naar de aard en ernst van de (mogelijke) verontreiniging.De basis voor dit onderzoek is het 'Protocol Oriënterend Onderzoek' (Sdu, 1993).</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>14</SIKB0101-ID>
+		<Waarde>uitvoerenAanvullendNaderOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een aanvullend nader onderzoek worden uitgevoerd om de omvang en ernst van de vastgestelde verontreiniging te bepalen. De basis voor dit onderzoek is het 'Protocol Nader onderzoek deel 1' (Sdu, 1995) of de 'Richtlijn nader onderzoek' (Sdu, 1995).</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>15</SIKB0101-ID>
+		<Waarde>uitvoerenAanvullendSaneringsonderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet voor de vastgestelde verontreiniging een aanvullend saneringsonderzoek worden uitgevoerd. In dit onderzoek worden een aantal saneringsvarianten tegen elkaar afgewogen en wordt een voorkeursvariant geadviseerd.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>16</SIKB0101-ID>
+		<Waarde>opstellenAanvullendSaneringsplan</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet een aanvullend saneringsplan voor de vastgestelde verontreiniging worden opgesteld. In dit plan wordt een aanvullende saneringsvariant uitgewerkt.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>17</SIKB0101-ID>
+		<Waarde>uitvoerenAanvullendeSanering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Om de verontreiniging te verwijderen of te beheren moet worden gestart met de aanvullende sanering.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>18</SIKB0101-ID>
+		<Waarde>uitvoerenAanvullendeEvaluatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het kader van de Wet bodembescherming moet na het uitvoeren van de aanvullende sanering een aanvullende evaluatie worden opgesteld. In de aanvullende evaluatie moet naar voren komen in hoeverre de aanvullende saneringsdoelstellingen zijn gehaald die in het aanvullende saneringsplan zijn geformuleerd.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>19</SIKB0101-ID>
+		<Waarde>uitvoerenHistorischOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Op de onderzoekslocatie moet een historisch onderzoek worden uitgevoerd. Uit dit onderzoek moet blijken of op de onderzoekslocatie activiteiten aanwezig zijn (geweest) die de bodem mogelijk hebben verontreinigd.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>20</SIKB0101-ID>
+		<Waarde>voldoendeOnderzocht</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De resultaten van het uitgevoerde (historische) bodemonderzoek geven aan dat de (voormalige) activiteiten en/of de onderzoekslocatie voldoende zijn onderzocht in het kader van de Wet bodembescherming.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>21</SIKB0101-ID>
+		<Waarde>voldoendeGesaneerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De resultaten van de evaluatie van de sanering geven aan dat de vastgestelde verontreiniging voldoende is gesaneerd in het kader van de Wet bodembescherming.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>22</SIKB0101-ID>
+		<Waarde>HBBclusterInactief</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Op basis van de informatie uit het Historisch BodemBestand is op deze locatie in het kader van de bodemsaneringsoperatie geen vervolgonderzoek noodzakelijk. Op deze locaties is pas op termijn, of eerder bij locatieontwikkeling, een vervolgonderzoek noodzakelijk om de aard en ernst van de mogelijke verontreiniging vast te stellen.</Omschrijving>
+	</VervolgactieWbb>
+	<VervolgactieWbb>
+		<SIKB0101-ID>23</SIKB0101-ID>
+		<Waarde>beheerstVolgensConvenant</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Spoedlocaties worden binnen het convenant bijv. als 'beheerst' beschouwd als de humane risico's weggenomen zijn. Bij verspreidingsrisico kan sprake zijn van monitoring als saneringsmaatregel volgens een (ouder) saneringsplan. In dergelijke gevallen kan het zijn dat er geen spoedeisende risico's meer zijn en de locatie derhalve volgens binnen het convenant 'beheerst' is. Er zijn daarmee locaties waar op korte termijn nog geen evaluatie volgt (omdat dit in volgens het beschikte SP nog niet aan de orde is) en er dus nog geen afsluiting van het WBB-traject is. Beheerst volgens convenant: We kennen twee convenanten, 'Convenant Bodemontwikkelingsbeleid en aanpak spoedlocaties 2010-2015' en 'Convenant Bodem en Ondergrond 2016-2020'. Dus deze waarden zouden beschikbaar moeten zijn.</Omschrijving>
+	</VervolgactieWbb>
+</domeintabel>

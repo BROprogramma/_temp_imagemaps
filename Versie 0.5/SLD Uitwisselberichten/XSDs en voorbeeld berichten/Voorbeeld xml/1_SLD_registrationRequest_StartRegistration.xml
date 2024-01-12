@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registrationRequest
+        xmlns="http://www.broservices.nl/xsd/issld/1.0"
+        xmlns:sldcom="http://www.broservices.nl/xsd/sldcommon/1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.broservices.nl/xsd/issld/1.0 ../issld-messages.xsd">
+    <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.5 van de SLD en valideert tegen de XSD van de innameservice.
+        Het is niet gevalideerd door de innameservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
+        xsi:schemaLocation="http://www.broservices.nl/xsd/issld/1.0 https://schema.broservices.nl/xsd/issld/1.0/issld-messages.xsd"/>
+    -->
+    <sldcom:requestReference>Verzoek1</sldcom:requestReference>
+    <!--KVK nummer van de aanleverende partij-->
+    <sldcom:deliveryAccountableParty>1234567</sldcom:deliveryAccountableParty>
+    <!-- Kwaliteitsregime, voor nu alleen nog IMRBO/A-->
+    <sldcom:qualityRegime>IMBRO/A</sldcom:qualityRegime>
+    <sourceDocument>
+        <SLD_StartRegistration>
+            <deliveryContext codeSpace="urn:bro:sld:DeliveryContext">Onbekend</deliveryContext>
+            <featureCollection>
+                <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="LIBTEST" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:immetingen="http://www.sikb.nl/immetingen" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 file:///C:/dev/SIKB0101_Protocol/XSDs%2014.7.0/imsikb0101_v14.7.0.xsd">
+                    <imsikb0101:metaData>
+                        <imsikb0101:application>urn:imsikb0101:Application:id:1</imsikb0101:application>
+                        <imsikb0101:date>2013-09-07</imsikb0101:date>
+                        <imsikb0101:organisation>De organisatie</imsikb0101:organisation>
+                        <imsikb0101:remarks> Voorbeeldbestand LIB</imsikb0101:remarks>
+                        <imsikb0101:reportDate>2013-07-07</imsikb0101:reportDate>
+                        <imsikb0101:sender>urn:imsikb0101:Bronhouders:id:54</imsikb0101:sender>
+                        <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:1</imsikb0101:supplier>
+                        <imsikb0101:version>14.7.0</imsikb0101:version>
+                        <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:5</imsikb0101:dataflow>
+                    </imsikb0101:metaData>
+                    <!--Dossier-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Dossier gml:id="_400789D5-B212-4ED1-8A6F-897E72F6D316">
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>400789D5-B212-4ED1-8A6F-897E72F6D316</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:soilLocation xlink:href="#_8306BF06-4D30-4AC3-9928-B833E4CC9ECA"/>
+                            <imsikb0101:careMeasureStatus>urn:imsikb0101:zorg:id:2</imsikb0101:careMeasureStatus>
+                            <imsikb0101:conclusion>Algemene conclusies met betrekking tot de locatie.</imsikb0101:conclusion>
+                            <imsikb0101:covenantOrganisation>urn:imsikb0101:convenantpartij:id:1</imsikb0101:covenantOrganisation>
+                            <imsikb0101:legalFramework>urn:imsikb0101:WettelijkKaderid:1</imsikb0101:legalFramework>
+                            <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:42</imsikb0101:dataAdministrator>
+                            <imsikb0101:dossierIdLocalAuthority>AA111122222</imsikb0101:dossierIdLocalAuthority>
+                            <imsikb0101:dossierIdNotLocalAuthority>00111122222</imsikb0101:dossierIdNotLocalAuthority>
+                            <imsikb0101:followUpWBB>urn:imsikb0101:VervolgWBB:id:1</imsikb0101:followUpWBB>
+                            <imsikb0101:initiator>urn:imsikb0101:initiatief:id:1</imsikb0101:initiator>
+                            <imsikb0101:landOrWater>urn:imsikb0101:landwater:id:1</imsikb0101:landOrWater>
+                            <imsikb0101:pollutionStartedBefore1987>true</imsikb0101:pollutionStartedBefore1987>
+                            <imsikb0101:rapporteurMonitoring>urn:imsikb0101:lettercode_bevoegd_gezag:id:42</imsikb0101:rapporteurMonitoring>
+                            <imsikb0101:remediationHasSocialReason>true</imsikb0101:remediationHasSocialReason>
+                            <imsikb0101:statusAsbestos>urn:imsikb0101:asbest_status:id:1</imsikb0101:statusAsbestos>
+                            <imsikb0101:statusOnBasisOfInvestigation>urn:imsikb0101:status_oord:id:1</imsikb0101:statusOnBasisOfInvestigation>
+                            <imsikb0101:stakeholders xlink:href="#_bc0be3bf-99d5-4060-b81f-58c0d2ebfdaa"/>
+                            <imsikb0101:sourceSystems>
+                                <imsikb0101:SourceSystem>
+                                    <imsikb0101:application>urn:imsikb0101:Applicaties:id:1</imsikb0101:application>
+                                    <imsikb0101:applicationID>ABC123567</imsikb0101:applicationID>
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>f5121138-ee48-4859-bfdd-67d0be64f1a7</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:organisation>urn:imsikb0101:Bronhouders:id:54</imsikb0101:organisation>
+                                </imsikb0101:SourceSystem>
+                            </imsikb0101:sourceSystems>
+                            <imsikb0101:decisions>
+                                <imsikb0101:Decision>
+                                    <imsikb0101:characteristic>KENMERK00001111</imsikb0101:characteristic>
+                                    <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:42</imsikb0101:dataAdministrator>
+                                    <imsikb0101:decisionType>urn:imsikb0101:Besluit:id:31</imsikb0101:decisionType>
+                                    <imsikb0101:endTime>1967-08-13</imsikb0101:endTime>
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>13d3b75d-c46b-4005-95ab-33e15bc0641c</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:startTime>1976-08-13</imsikb0101:startTime>
+                                    <imsikb0101:statusOfDecision>urn:imsikb0101:besl_stat:id:1</imsikb0101:statusOfDecision>
+                                    <imsikb0101:registrations>
+                                        <imsikb0101:RegistrationWKPB>
+                                            <imsikb0101:archiveCode>ARCH4335</imsikb0101:archiveCode>
+                                            <imsikb0101:dateErasure>2005-12-18</imsikb0101:dateErasure>
+                                            <imsikb0101:dateSubscription>2001-07-23</imsikb0101:dateSubscription>
+                                            <imsikb0101:depotNumber>58643357</imsikb0101:depotNumber>
+                                            <imsikb0101:identification>
+                                                <immetingen:NEN3610ID>
+                                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                                    <immetingen:lokaalID>a2204792-cc2e-4888-a0c5-1951df87e568</immetingen:lokaalID>
+                                                </immetingen:NEN3610ID>
+                                            </imsikb0101:identification>
+                                            <imsikb0101:reasonErasure>Reden doorhaling.</imsikb0101:reasonErasure>
+                                        </imsikb0101:RegistrationWKPB>
+                                    </imsikb0101:registrations>
+                                    <imsikb0101:remediations xlink:href="#_4f40bded-ae11-4ed0-a0fc-990ce0d31f8b"/>
+                                </imsikb0101:Decision>
+                            </imsikb0101:decisions>
+                            <imsikb0101:sitemanagements xlink:href="#_1781a2b7-ce3b-42f8-9c8d-6407f87760e3"/>
+                            <imsikb0101:sitemanagements xlink:href="#_151da286-35a7-489a-8719-390e9f50e44e"/>
+                            <imsikb0101:researchCosts>
+                                <imsikb0101:Cost>
+                                    <imsikb0101:amount>3.14159265358979E0</imsikb0101:amount>
+                                    <imsikb0101:determinationMethod/>
+                                    <imsikb0101:concerns>urn:imsikb0101:kostenindeling:id:1</imsikb0101:concerns>
+                                    <imsikb0101:startTime>1967-08-13</imsikb0101:startTime>
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>5b71f16a-7c69-4888-bfe3-cf651223de08</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:endTime>1969-08-13</imsikb0101:endTime>
+                                </imsikb0101:Cost>
+                            </imsikb0101:researchCosts>
+                            <imsikb0101:usages>
+                                <imsikb0101:CurrentUsage>
+                                    <imsikb0101:landuseType>urn:imsikb0101:gebruik:id:5</imsikb0101:landuseType>
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>47dcfa7e-62ea-441a-b8f9-f84d5231e38e</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:coveragePercentage>67</imsikb0101:coveragePercentage>
+                                    <imsikb0101:remarks>Opmerkingen bij gebruik</imsikb0101:remarks>
+                                </imsikb0101:CurrentUsage>
+                            </imsikb0101:usages>
+                            <imsikb0101:risks>
+                                <imsikb0101:Risk>
+                                    <imsikb0101:criterion>urn:imsikb0101:criterium_risico:id:20</imsikb0101:criterion>
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>023b1313-87a2-4fed-b27f-f75963bbe349</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:bottleneck>urn:imsikb0101:knelpunt_aanpak_risico:id:5</imsikb0101:bottleneck>
+                                    <imsikb0101:riskType>urn:imsikb0101:risico:id:2</imsikb0101:riskType>
+                                    <imsikb0101:temporaryRemedy>urn:imsikb0101:tijdelijke_maatregel:id:1</imsikb0101:temporaryRemedy>
+                                    <imsikb0101:remarks>Opmerkingen bij een risico</imsikb0101:remarks>
+                                </imsikb0101:Risk>
+                            </imsikb0101:risks>
+                            <imsikb0101:activities>
+                                <imsikb0101:Activity>
+                                    <imsikb0101:appointed>urn:imsikb0101:benoemd:id:2</imsikb0101:appointed>
+                                    <imsikb0101:endTime>2005</imsikb0101:endTime>
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>c6d320cf-2a0b-4a74-8c36-a0b7c336dd39</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:investigated>urn:imsikb0101:ubi_onderzocht:id:2</imsikb0101:investigated>
+                                    <imsikb0101:emergencyCausing>urn:imsikb0101:spoedveroorzakend:id:2</imsikb0101:emergencyCausing>
+                                    <imsikb0101:startTime>1995</imsikb0101:startTime>
+                                    <imsikb0101:UBI>urn:imsikb0101:ubicode:id:875</imsikb0101:UBI>
+                                    <imsikb0101:expired>urn:imsikb0101:vervallen:id:3</imsikb0101:expired>
+                                    <imsikb0101:remarks>Opmerkingen bij deze activiteit.</imsikb0101:remarks>
+                                    <imsikb0101:contaminated>urn:imsikb0101:verontreinigd:id:5</imsikb0101:contaminated>
+                                </imsikb0101:Activity>
+                            </imsikb0101:activities>
+                            <imsikb0101:destinations xlink:href="#_84bfc94b-3268-4a0c-9983-e810f0612c78"/>
+                            <imsikb0101:destinations xlink:href="#_e7f8b329-1778-4405-b98b-c632ad29507e"/>
+                            <imsikb0101:contaminationInfos xlink:href="#_d2ef98d4-38b2-4cb4-87ce-bcd997810fbc"/>
+                            <imsikb0101:remediations xlink:href="#_4f40bded-ae11-4ed0-a0fc-990ce0d31f8b"/>
+                        </imsikb0101:Dossier>
+                    </imsikb0101:featureMember>
+                    <!--/Dossier-->
+                    <!--Subject1-->
+                    <imsikb0101:featureMember>
+                        <immetingen:Person gml:id="_bc0be3bf-99d5-4060-b81f-58c0d2ebfdaa">
+                            <immetingen:email>username@example.com</immetingen:email>
+                            <immetingen:fax>+31(0) 88 2058462</immetingen:fax>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>bc0be3bf-99d5-4060-b81f-58c0d2ebfdaa</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:firstName>Voornaam</immetingen:firstName>
+                            <immetingen:gender>urn:imsikb0101:geslacht:id:2</immetingen:gender>
+                            <immetingen:lastName>Achternaam</immetingen:lastName>
+                            <immetingen:middleName>Tussenvoegsel</immetingen:middleName>
+                            <immetingen:initials>V</immetingen:initials>
+                        </immetingen:Person>
+                    </imsikb0101:featureMember>
+                    <!--/Subject1-->
+                    <!--Subject2-->
+                    <imsikb0101:featureMember>
+                        <immetingen:Person gml:id="_c6d320cf-2a0b-4a74-8c36-a0b7c336dd39">
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>c6d320cf-2a0b-4a74-8c36-a0b7c336dd39</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:firstName>Sjaak</immetingen:firstName>
+                            <immetingen:gender>urn:imsikb0101:geslacht:id:1</immetingen:gender>
+                            <immetingen:lastName>Einde</immetingen:lastName>
+                            <immetingen:middleName>van 't</immetingen:middleName>
+                            <immetingen:initials>S</immetingen:initials>
+                        </immetingen:Person>
+                    </imsikb0101:featureMember>
+                    <!--/Subject2-->
+                    <!--Subject3-->
+                    <imsikb0101:featureMember>
+                        <immetingen:Person gml:id="_70dc6492-a046-4d7d-9415-da776924207c">
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>70dc6492-a046-4d7d-9415-da776924207c</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:firstName>Henk</immetingen:firstName>
+                            <immetingen:gender>urn:imsikb0101:geslacht:id:1</immetingen:gender>
+                            <immetingen:lastName>Vries</immetingen:lastName>
+                            <immetingen:middleName>de</immetingen:middleName>
+                            <immetingen:initials>H.K.J.</immetingen:initials>
+                        </immetingen:Person>
+                    </imsikb0101:featureMember>
+                    <!--/Subject3-->
+                    <!--Subject4-->
+                    <imsikb0101:featureMember>
+                        <immetingen:Person gml:id="_7f555e5d-68fe-4e20-9bad-8eb420b45ece">
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>7f555e5d-68fe-4e20-9bad-8eb420b45ece</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:firstName>Clara</immetingen:firstName>
+                            <immetingen:gender>urn:imsikb0101:geslacht:id:2</immetingen:gender>
+                            <immetingen:lastName>Janssen</immetingen:lastName>
+                            <immetingen:middleName/>
+                            <immetingen:initials>C.J.</immetingen:initials>
+                        </immetingen:Person>
+                    </imsikb0101:featureMember>
+                    <!--/Subject4-->
+                    <!--SiteManagementMeasure-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:SitemanagementMeasure gml:id="_1781a2b7-ce3b-42f8-9c8d-6407f87760e3">
+                            <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:17</imsikb0101:dataAdministrator>
+                            <imsikb0101:duration uom="urn:immetingen:Eenheid:id:137">3</imsikb0101:duration>
+                            <imsikb0101:endTime>2020-08-04</imsikb0101:endTime>
+                            <imsikb0101:aftercareFramework>urn:imsikb0101:nazorgkader:id:4</imsikb0101:aftercareFramework>
+                            <imsikb0101:aftercareFramework>urn:imsikb0101:nazorgkader:id:3</imsikb0101:aftercareFramework>
+                            <imsikb0101:geometry/>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>1781a2b7-ce3b-42f8-9c8d-6407f87760e3</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:remarks>Opmerkingen bij deze nazorgmaatregel.</imsikb0101:remarks>
+                            <imsikb0101:startTime>2017-05-05</imsikb0101:startTime>
+                            <imsikb0101:status>urn:imsikb0101:zorg:id:5</imsikb0101:status>
+                            <imsikb0101:usageRestrictions>
+                                <imsikb0101:UsageRestriction gml:id="_64c6a014-0450-47a4-9cd0-13ef4ae01a46">
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>64c6a014-0450-47a4-9cd0-13ef4ae01a46</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:restriction>urn:imsikb0101:gebruiksbeperking:id:2</imsikb0101:restriction>
+                                    <imsikb0101:remarks>Opmerkingen bij deze gebruiksbeperking</imsikb0101:remarks>
+                                </imsikb0101:UsageRestriction>
+                            </imsikb0101:usageRestrictions>
+                            <imsikb0101:usageRestrictions>
+                                <imsikb0101:UsageRestriction gml:id="_f5442885-2099-4f7b-a642-7a7071530694">
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>f5442885-2099-4f7b-a642-7a7071530694</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:restriction>urn:imsikb0101:gebruiksbeperking:id:5</imsikb0101:restriction>
+                                    <imsikb0101:remarks>Opmerkingen bij deze gebruiksbeperking 2</imsikb0101:remarks>
+                                </imsikb0101:UsageRestriction>
+                            </imsikb0101:usageRestrictions>
+                        </imsikb0101:SitemanagementMeasure>
+                    </imsikb0101:featureMember>
+                    <!--/SiteManagementMeasure-->
+                    <!--SiteManagementMeasure2-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:SitemanagementMeasure gml:id="_151da286-35a7-489a-8719-390e9f50e44e">
+                            <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:459</imsikb0101:dataAdministrator>
+                            <imsikb0101:duration uom="urn:immetingen:Eenheid:id:137">13</imsikb0101:duration>
+                            <imsikb0101:endTime>2026-01-04</imsikb0101:endTime>
+                            <imsikb0101:aftercareFramework>urn:imsikb0101:nazorgkader:id:4</imsikb0101:aftercareFramework>
+                            <imsikb0101:geometry/>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>151da286-35a7-489a-8719-390e9f50e44e</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:remarks>Opmerkingen bij deze nazorgmaatregel 2.</imsikb0101:remarks>
+                            <imsikb0101:startTime>2013-09-01</imsikb0101:startTime>
+                            <imsikb0101:status>urn:imsikb0101:zorg:id:3</imsikb0101:status>
+                            <imsikb0101:usageRestrictions>
+                                <imsikb0101:UsageRestriction gml:id="_9f9e8542-a284-4239-bacc-b3c10113b6f8">
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>9f9e8542-a284-4239-bacc-b3c10113b6f8</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:restriction>urn:imsikb0101:gebruiksbeperking:id:4</imsikb0101:restriction>
+                                    <imsikb0101:remarks>Opmerkingen bij deze gebruiksbeperking</imsikb0101:remarks>
+                                </imsikb0101:UsageRestriction>
+                            </imsikb0101:usageRestrictions>
+                        </imsikb0101:SitemanagementMeasure>
+                    </imsikb0101:featureMember>
+                    <!--/SiteManagementMeasure2-->
+                    <!--DestinationAfterRemediation-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:DestinationAfterRemediation gml:id="_84bfc94b-3268-4a0c-9983-e810f0612c78">
+                            <imsikb0101:destinationType>urn:imsikb0101:gebruik:id:14</imsikb0101:destinationType>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>84bfc94b-3268-4a0c-9983-e810f0612c78</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:remarks>Opmerkingen bij deze bestemming</imsikb0101:remarks>
+                        </imsikb0101:DestinationAfterRemediation>
+                    </imsikb0101:featureMember>
+                    <!--/DestinationAfterRemediation-->
+                    <!--DestinationAfterRemediation2-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:DestinationAfterRemediation gml:id="_e7f8b329-1778-4405-b98b-c632ad29507e">
+                            <imsikb0101:destinationType>urn:imsikb0101:gebruik:id:8</imsikb0101:destinationType>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>e7f8b329-1778-4405-b98b-c632ad29507e</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:remarks>Opmerkingen bij deze bestemming 2</imsikb0101:remarks>
+                        </imsikb0101:DestinationAfterRemediation>
+                    </imsikb0101:featureMember>
+                    <!--/DestinationAfterRemediation2-->
+                    <!--ContaminationInformation-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:ContaminationInformation gml:id="_d2ef98d4-38b2-4cb4-87ce-bcd997810fbc">
+                            <imsikb0101:area uom="urn:immetingen:eenheid:id:51">15.25</imsikb0101:area>
+                            <imsikb0101:contourType>urn:imsikb0101:ContourType:id:1</imsikb0101:contourType>
+                            <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:153</imsikb0101:dataAdministrator>
+                            <imsikb0101:endTime>1994-06-19</imsikb0101:endTime>
+                            <imsikb0101:exceededClass>urn:imsikb0101:overschrijding:id:7</imsikb0101:exceededClass>
+                            <imsikb0101:geometry/>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>d2ef98d4-38b2-4cb4-87ce-bcd997810fbc</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:115">2.2</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:remarks>Opmerkingen bij deze verontreinigingsinformatie.</imsikb0101:remarks>
+                            <imsikb0101:startTime>1990-09-25</imsikb0101:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">5</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:volume uom="urn:immetingen:Eenheid:id:44">2242</imsikb0101:volume>
+                            <imsikb0101:natures>
+                                <imsikb0101:Nature>
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>3c04751e-d881-4f66-ae5b-8b15b2fbd614</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:physicalProperty>
+                                        <immetingen:PhysicalProperty>
+                                            <immetingen:quantity/>
+                                            <immetingen:parameter>urn:immetingen:parameter:id:311</immetingen:parameter>
+                                            <immetingen:condition/>
+                                        </immetingen:PhysicalProperty>
+                                    </imsikb0101:physicalProperty>
+                                </imsikb0101:Nature>
+                            </imsikb0101:natures>
+                        </imsikb0101:ContaminationInformation>
+                    </imsikb0101:featureMember>
+                    <!--/ContaminationInformation-->
+                    <!--Remediations-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Remediation gml:id="_4f40bded-ae11-4ed0-a0fc-990ce0d31f8b">
+                            <imsikb0101:agreementDate>2005-11-15</imsikb0101:agreementDate>
+                            <imsikb0101:amountCleaned uom="urn:immetingen:Eenheid:id:264">150</imsikb0101:amountCleaned>
+                            <imsikb0101:amountDeposited uom="urn:immetingen:Eenheid:id:264">25</imsikb0101:amountDeposited>
+                            <imsikb0101:amountReused uom="urn:immetingen:Eenheid:id:264">100</imsikb0101:amountReused>
+                            <imsikb0101:amountStored uom="urn:immetingen:Eenheid:id:264">25</imsikb0101:amountStored>
+                            <imsikb0101:area uom="urn:immetingen:eenheid:id:51">3.26</imsikb0101:area>
+                            <imsikb0101:contourType>urn:imsikb0101:ContourType:id:1</imsikb0101:contourType>
+                            <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:32</imsikb0101:dataAdministrator>
+                            <imsikb0101:destinationAfterRemediation>urn:imsikb0101:gebruik:id:12</imsikb0101:destinationAfterRemediation>
+                            <imsikb0101:destinationBeforeRemediation>urn:imsikb0101:gebruik:id:12</imsikb0101:destinationBeforeRemediation>
+                            <imsikb0101:endTime>2006-11-08</imsikb0101:endTime>
+                            <imsikb0101:geometry/>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>4f40bded-ae11-4ed0-a0fc-990ce0d31f8b</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:29">140</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:notification>urn:imsikb0101:melding:id:1</imsikb0101:notification>
+                            <imsikb0101:postRemediationValue>urn:imsikb0101:terugsaneerwaarde:id:2</imsikb0101:postRemediationValue>
+                            <imsikb0101:realizedVariationSubsoil>urn:imsikb0101:san_ondergrond:id:3</imsikb0101:realizedVariationSubsoil>
+                            <imsikb0101:realizedVariationTopsoil>urn:imsikb0101:san_bovengrond:id:5</imsikb0101:realizedVariationTopsoil>
+                            <imsikb0101:remarks>Opmerkingen bij deze sanering</imsikb0101:remarks>
+                            <imsikb0101:remediationReason>urn:imsikb0101:saneringsaanleiding:id:5</imsikb0101:remediationReason>
+                            <imsikb0101:startTime>2006-02-08</imsikb0101:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:187">80</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:volumeGroundwater uom="urn:immetingen:Eenheid:id:52">684</imsikb0101:volumeGroundwater>
+                            <imsikb0101:volumeSoil uom="urn:immetingen:Eenheid:id:264">178</imsikb0101:volumeSoil>
+                        </imsikb0101:Remediation>
+                    </imsikb0101:featureMember>
+                    <!--/Remediations-->
+                    <!--SoilLocation-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:SoilLocation gml:id="_8306BF06-4D30-4AC3-9928-B833E4CC9ECA">
+                            <imsikb0101:area uom="urn:immetingen:Eenheid:id:51">76557</imsikb0101:area>
+                            <imsikb0101:geometry>
+                                <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9db">
+                                    <gml:surfaceMember>
+                                        <gml:Polygon gml:id="_A1AD8FF6-28D7-11E2-89E8-C2796188709B" srsName="urn:ogc:def:crs:EPSG::28992">
+                                            <gml:exterior>
+                                                <gml:LinearRing>
+                                                    <gml:posList srsDimension="2">200000 350000 210000 350000 210000 370000 200000 370000 200000 350000</gml:posList>
+                                                </gml:LinearRing>
+                                            </gml:exterior>
+                                        </gml:Polygon>
+                                    </gml:surfaceMember>
+                                </gml:MultiSurface>
+                            </imsikb0101:geometry>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>8306BF06-4D30-4AC3-9928-B833E4CC9ECA</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:name>Locatie 1</imsikb0101:name>
+                            <imsikb0101:noteLocationCreation>Toelichting voor het aanmaken van de locatie.</imsikb0101:noteLocationCreation>
+                            <imsikb0101:remarks>Opmerkingen bij deze bodemlocatie</imsikb0101:remarks>
+                            <imsikb0101:statdyn>urn:imsikb0101:stat_dyn:id:2</imsikb0101:statdyn>
+                            <imsikb0101:Addresses xlink:href="#_94516908-e781-49f3-baa0-c3046cdbcbf6"/>
+                            <imsikb0101:addressLocations xlink:href="#_2d0d6f59-9300-40e4-90dc-2088ff4ebb73"/>
+                            <imsikb0101:addressLocations xlink:href="#_2ab83dc5-26ed-4a0c-82c8-34e2a236d1ae"/>
+                        </imsikb0101:SoilLocation>
+                    </imsikb0101:featureMember>
+                    <!-- /SoilLocation-->
+                    <!--Project-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Project gml:id="_5CD07945-787E-4BAC-8467-31C92981B257" xmlns:immetingen="http://www.sikb.nl/immetingen">
+                            <imsikb0101:asbestos>urn:imsikb0101:AsbestAanwezigheid:id:3</imsikb0101:asbestos>
+                            <imsikb0101:assesorConclusion>Belangrijkste resultaten van het onderzoek volgens de beoordelaar van het rapport.</imsikb0101:assesorConclusion>
+                            <imsikb0101:assignmentCode>PROJ0023883</imsikb0101:assignmentCode>
+                            <imsikb0101:followUpStatement>urn:imsikb0101:VervolgWBB:id:3</imsikb0101:followUpStatement>
+                            <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:621</imsikb0101:dataAdministrator>
+                            <imsikb0101:endTime>2001-12-17T09:30:47Z</imsikb0101:endTime>
+                            <imsikb0101:investigationConclusion>Belangrijkste resultaten van het onderzoek volgens de auteur van het rapport.</imsikb0101:investigationConclusion>
+                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:5</imsikb0101:investigationReason>
+                            <imsikb0101:geometry/>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>5CD07945-787E-4BAC-8467-31C92981B257</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:name>Naam van het project</imsikb0101:name>
+                            <imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:4</imsikb0101:phase>
+                            <imsikb0101:projectCode>PROJ3543498</imsikb0101:projectCode>
+                            <imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:3</imsikb0101:projectType>
+                            <imsikb0101:remarks>Aanvullende opmerkingen bij dit project.</imsikb0101:remarks>
+                            <imsikb0101:reportCertificateNumber>CERT8989672</imsikb0101:reportCertificateNumber>
+                            <imsikb0101:reportDate>2009-08-22</imsikb0101:reportDate>
+                            <imsikb0101:reportNumber>RAP878362</imsikb0101:reportNumber>
+                            <imsikb0101:startTime>2006-12-09T14:55:23</imsikb0101:startTime>
+                            <imsikb0101:potentiallyContaminated>false</imsikb0101:potentiallyContaminated>
+                            <imsikb0101:potentialContaminantParameter>
+                                <immetingen:PhysicalProperty>
+                                    <immetingen:quantity/>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:412</immetingen:parameter>
+                                </immetingen:PhysicalProperty>
+                            </imsikb0101:potentialContaminantParameter>
+                            <imsikb0101:potentialContaminantParameter>
+                                <immetingen:PhysicalProperty>
+                                    <immetingen:quantity/>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:314</immetingen:parameter>
+                                </immetingen:PhysicalProperty>
+                            </imsikb0101:potentialContaminantParameter>
+                            <imsikb0101:potentialContaminantParameter>
+                                <immetingen:PhysicalProperty>
+                                    <immetingen:quantity/>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:311</immetingen:parameter>
+                                </immetingen:PhysicalProperty>
+                            </imsikb0101:potentialContaminantParameter>
+                            <imsikb0101:potentialContaminantParameter>
+                                <immetingen:PhysicalProperty>
+                                    <immetingen:quantity/>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:36</immetingen:parameter>
+                                </immetingen:PhysicalProperty>
+                            </imsikb0101:potentialContaminantParameter>
+                            <imsikb0101:tank>urn:imsikb0101:TankAanwezigheid:id:4</imsikb0101:tank>
+                            <imsikb0101:dossiers xlink:href="#_400789D5-B212-4ED1-8A6F-897E72F6D316"/>
+                        </imsikb0101:Project>
+                    </imsikb0101:featureMember>
+                    <!--/Project-->
+                    <!--AddressLocation1-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:AddressLocation gml:id="_2d0d6f59-9300-40e4-90dc-2088ff4ebb73">
+                            <imsikb0101:bioID>A0037662537</imsikb0101:bioID>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>2d0d6f59-9300-40e4-90dc-2088ff4ebb73</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                        </imsikb0101:AddressLocation>
+                    </imsikb0101:featureMember>
+                    <!--/AddressLocation1-->
+                    <!--AddressLocation2-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:AddressLocation gml:id="_2ab83dc5-26ed-4a0c-82c8-34e2a236d1ae">
+                            <imsikb0101:bioID>A0037662534</imsikb0101:bioID>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>2ab83dc5-26ed-4a0c-82c8-34e2a236d1ae</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                        </imsikb0101:AddressLocation>
+                    </imsikb0101:featureMember>
+                    <!--/AddressLocation2-->
+                    <!--Address1-->
+                    <imsikb0101:featureMember>
+                        <immetingen:Address gml:id="_94516908-e781-49f3-baa0-c3046cdbcbf6">
+                            <immetingen:BAGIdentification>0476AA0000374618</immetingen:BAGIdentification>
+                            <immetingen:city>PlaatsAdres1</immetingen:city>
+                            <immetingen:country>LandAdres1</immetingen:country>
+                            <immetingen:districtCode>0599</immetingen:districtCode>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>94516908-e781-49f3-baa0-c3046cdbcbf6</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:letter>a</immetingen:letter>
+                            <immetingen:numberAddition>3</immetingen:numberAddition>
+                            <immetingen:number>46</immetingen:number>
+                            <immetingen:remarks>Opmerkingen bij dit adres</immetingen:remarks>
+                            <immetingen:publicSpace>StraatAdres1</immetingen:publicSpace>
+                            <immetingen:zipcode>9999ED</immetingen:zipcode>
+                        </immetingen:Address>
+                    </imsikb0101:featureMember>
+                    <!--/Address1-->
+                    <!--Address2-->
+                    <imsikb0101:featureMember>
+                        <immetingen:Address gml:id="_bb4eb181-49e7-4268-815c-af4ff2313d28">
+                            <immetingen:city>PlaatsAdres2</immetingen:city>
+                            <immetingen:country>LandAdres2</immetingen:country>
+                            <immetingen:districtCode>0363</immetingen:districtCode>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>bb4eb181-49e7-4268-815c-af4ff2313d28</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:number>184</immetingen:number>
+                            <immetingen:remarks>Opmerkingen bij dit adres!</immetingen:remarks>
+                            <immetingen:publicSpace>StraatAdres2</immetingen:publicSpace>
+                            <immetingen:zipcode>9999II</immetingen:zipcode>
+                        </immetingen:Address>
+                    </imsikb0101:featureMember>
+                    <!--/Address2-->
+                </imsikb0101:FeatureCollectionIMSIKB0101>
+            </featureCollection>
+        </SLD_StartRegistration>
+    </sourceDocument>
+</registrationRequest>

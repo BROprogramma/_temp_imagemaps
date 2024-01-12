@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registrationRequest 
+    xmlns="http://www.broservices.nl/xsd/issld-internal/0.5" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
+    xmlns:sldcom="http://www.broservices.nl/xsd/sldcommon-internal/1.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.broservices.nl/xsd/issld-internal/0.5 ../issld-internal-messages.xsd">
+    <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.5 van de SLD en valideert tegen de XSD van de innameservice.
+        Het is niet gevalideerd door de innameservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
+        xsi:schemaLocation="http://www.broservices.nl/xsd/issld-internal/0.5 https://schema.broservices.nl/xsd/issld-internal/0.5/issld-internal-messages.xsd"/>
+
+        Inhoud:
+         * SLD object volgens intern formaat.
+    -->
+    <brocom:requestReference>verzoek_1</brocom:requestReference>
+    <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+    <sourceDocument>
+        <SLD_StartRegistration gml:id="id_0001">
+            <deliveryContext codeSpace="urn:bro:sld:DeliveryContext">archiefoverdracht</deliveryContext>
+            <objectIdAccountableParty>12345</objectIdAccountableParty>
+            <identification>ee056d3e-a634-11ed-afa1-0242ac120002</identification>
+            <dossierIdSoilInformationsystem>00111122222</dossierIdSoilInformationsystem>
+            <dossierIdLocalAuthority>AA111122222</dossierIdLocalAuthority>
+            <deliveredBoundary>
+                <gml:MultiSurface gml:id="id_0002" srsName="urn:ogc:def:crs:EPSG::4258">
+                    <!-- 1 or more repetitions -->
+                    <gml:surfaceMember>
+                        <gml:Polygon gml:id="id_0003">
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList>
+                                        50.8748363 5.9284810
+                                        50.8757351 5.9284915
+                                        50.8766307 5.9292124
+                                        50.8757285 5.9299122
+                                        50.8748296 5.9299017
+                                        50.8748363 5.9284810
+                                    </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gml:surfaceMember>
+                </gml:MultiSurface>
+            </deliveredBoundary>
+            <activity gml:id="id_0004">
+                <sldcom:identification>c6d320cf-2a0b-4a74-8c36-a0b7c336dd39</sldcom:identification>
+                <sldcom:activity codeSpace="urn:bro:sld:UBIcode">UBI123</sldcom:activity>
+            </activity>
+            <decision gml:id="id_0006">
+                <sldcom:identification>c6d320cf-2a0b-4a74-8c36-a0b7c336dd40</sldcom:identification>
+                <sldcom:decisionType codeSpace="urn:bro:sld:DecisionType">Besluit</sldcom:decisionType>
+                <sldcom:effectiveDate><brocom:date>2023-03-21</brocom:date></sldcom:effectiveDate>
+                <sldcom:executedRemediation gml:id="id_0005">
+                    <sldcom:identification>c6d320cf-2a0b-4a74-8c36-a0b7c336dd41</sldcom:identification>
+                    <sldcom:compartment codeSpace="urn:bro:sld:Compartment">Compartment</sldcom:compartment>
+                    <sldcom:remediationBoundary><gml:MultiSurface gml:id="id_0008"><gml:surfaceMember>
+                        <gml:Polygon gml:id="id_0009">
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList>
+                                        50.8748363 5.9284810
+                                        50.8757351 5.9284915
+                                        50.8766307 5.9292124
+                                        50.8757285 5.9299122
+                                        50.8748296 5.9299017
+                                        50.8748363 5.9284810
+                                    </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gml:surfaceMember></gml:MultiSurface></sldcom:remediationBoundary>
+                </sldcom:executedRemediation>
+            </decision>
+        </SLD_StartRegistration>
+    </sourceDocument>
+</registrationRequest>

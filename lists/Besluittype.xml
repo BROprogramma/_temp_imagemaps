@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Besluittype>
+		<SIKB0101-ID>1</SIKB0101-ID>
+		<Waarde>geenVervolg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat op de locatie geen vervolgactie (onderzoek of administratieve nazorg) noodzakelijk is. Dit besluit verwijst niet naar een Wbb-artikel.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>2</SIKB0101-ID>
+		<Waarde>uitvoerenOO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat op de locatie een oriënterend onderzoek uitgevoerd moet worden om de aard en ernst van de (mogelijke) verontreiniging vast te stellen. Dit besluit verwijst naar Wbb-artikel 48.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>3</SIKB0101-ID>
+		<Waarde>uitvoerenNO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat op de locatie een nader onderzoek uitgevoerd moet worden om de omvang en ernst van de vastgestelde verontreiniging te bepalen. Dit besluit verwijst naar Wbb-artikel 48.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>4</SIKB0101-ID>
+		<Waarde>uitvoerenSO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat op de locatie een saneringsonderzoek uitgevoerd moet worden om een aantal saneringsvarianten tegen elkaar af te wegen en voorkeursvariant vast te stellen voor de sanering van de verontreiniging. Dit besluit verwijst naar Wbb-artikel 48.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>5</SIKB0101-ID>
+		<Waarde>opstellenSP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat voor de vastgestelde verontreiniging op de locatie een saneringsplan moet worden opgesteld. In het plan wordt een saneringsvariant uitgewerkt. Dit besluit verwijst naar Wbb-artikel 48.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>6</SIKB0101-ID>
+		<Waarde>opstellenBestek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat voor de vastgestelde verontreiniging op de locatie een bestek moet worden opgesteld waarin de uit te voeren werkzaamheden om de verontreiniging te saneren worden gespecificeerd. Dit besluit verwijst naar Wbb-artikel 48.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>9</SIKB0101-ID>
+		<Waarde>vaststellenRapportageOO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de rapportage van het oriënterend onderzoek naar de (mogelijke) verontreiniging moet worden vastgesteld. Dit besluit verwijst niet naar een Wbb-artikel.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>10</SIKB0101-ID>
+		<Waarde>vaststellenRapportageNO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de rapportage van het nader onderzoek naar de (mogelijke) ernstige verontreiniging moet worden vastgesteld. Dit besluit verwijst naar Wbb-artikel 37.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>11</SIKB0101-ID>
+		<Waarde>vaststellenRapportageSO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de rapportage van het saneringsonderzoek moet worden vastgesteld. Dit besluit verwijst niet naar een Wbb-artikel</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>12</SIKB0101-ID>
+		<Waarde>opstellenEvaluatieverslag</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de rapportage van de saneringsevaluatie van de ernstige verontreiniging zo spoedig als mogelijk moet worden opgesteld. Dit besluit verwijst naar Wbb-artikel 39c.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>13</SIKB0101-ID>
+		<Waarde>instemmingSP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat ingestemd wordt met het saneringsplan voor de ernstige verontreiniging. Dit besluit verwijst naar Wbb-artikel 39.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>14</SIKB0101-ID>
+		<Waarde>geenInstemmingSP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat niet ingestemd wordt met het saneringsplan voor de ernstige verontreiniging. Dit besluit verwijst naar Wbb-artikel 39.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>15</SIKB0101-ID>
+		<Waarde>instemmingUitgevoerdeSanering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat ingestemd wordt met de uitgevoerde sanering van de ernstige verontreiniging of de beschikking op het saneringsverslag. Dit besluit verwijst naar Wbb-artikel 39c.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>16</SIKB0101-ID>
+		<Waarde>geenInstemmingUitgevoerdeSanering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat niet ingestemd wordt met de uitgevoerde sanering van de ernstige verontreiniging. Dit besluit verwijst naar Wbb-artikel 39c.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>17</SIKB0101-ID>
+		<Waarde>instellenTijdelijkeBeveiligingVerspreiding</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er tijdelijke beveiligingsmaatregelen moeten worden ingesteld om verspreiding van de verontreiniging te voorkomen. Dit besluit verwijst naar Wbb-artikel 37.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>18</SIKB0101-ID>
+		<Waarde>instellenTijdelijkeBeveiligingBlootstelling</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er tijdelijke beveiligingsmaatregelen moeten worden ingesteld om blootstelling aan de verontreiniging te voorkomen. Dit besluit verwijst naar Wbb-artikel 37</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>20</SIKB0101-ID>
+		<Waarde>monitoringGrondwater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er periodieke kwaliteitsmetingen (monitoring) van het grondwater moeten worden uitgevoerd. Dit kan voor, tijdens of na de sanering van toepassing zijn. Dit besluit verwijst naar Wbb-artikel 37 en 39 of 39d</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>21</SIKB0101-ID>
+		<Waarde>monitoringSaneringsresultaat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er periodieke kwaliteitsmeting (monitoring), ijkmomenten en vastlegging van het behaalde saneringsresultaat moet plaatsvinden. Dit is van toepassing wanneer bij de sanering van de ondergrond een stabiele eindsituatie binnen 30 jaar moet worden bereikt. Dit besluit verwijst naar Wbb-artikel 37 en 39.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>22</SIKB0101-ID>
+		<Waarde>monitoringGeenLuchtGrondwater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er periodieke kwaliteitsmetingen (monitoring), anders dan lucht of grondwater moeten worden uitgevoerd. Dit kan voor, tijdens of na de sanering van toepassing zijn. Dit besluit verwijst naar Wbb-artikel 37 en 39 of 39d.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>23</SIKB0101-ID>
+		<Waarde>uitvoerenAdministratieveNazorg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er administratieve nazorg moet plaatsvinden zoals bijvoorbeeld registratie van de restverontreiniging en de geldende gebruiksbeperkingen. Dit besluit verwijst naar Wbb-artikel 39d.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>24</SIKB0101-ID>
+		<Waarde>uitvoerenActieveNazorg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er actieve (na)zorg moet plaatsvinden, zoals grondwaterbeheersing, in stand houden isolatie et cetera. Dit besluit verwijst naar Wbb-artikel 39d.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>26</SIKB0101-ID>
+		<Waarde>vaststellingVerontreinigingNietErnstig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een beschikking aangegeven dat de vastgestelde verontreiniging niet ernstig is. Dit besluit verwijst naar Wbb-artikel 29</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>27</SIKB0101-ID>
+		<Waarde>vaststellingVerontreinigingErnstigNietUrgent</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een beschikking aangegeven dat de vastgestelde verontreiniging ernstig is. De verontreiniging moet door de eigenaar/gebruiker/gemeente/provincie worden beheerd of, eerder, bij graafwerkzaamheden worden gesaneerd. Dit besluit verwijst naar Wbb-artikel 29, 37(oud).</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>28</SIKB0101-ID>
+		<Waarde>vaststellingVerontreinigingErnstigUrgentSanerenBinnen4jaar</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een beschikking aangegeven dat de vastgestelde verontreiniging ernstig is. Gezien de risicobeoordeling moet de verontreiniging binnen 4 jaar worden gesaneerd. Dit besluit verwijst naar Wbb-artikel 29, 37(oud).</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>29</SIKB0101-ID>
+		<Waarde>vaststellingVerontreinigingUrgentSanerenTussen5-10jaar</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een beschikking aangegeven dat de vastgestelde verontreiniging ernstig is. Gezien de risicobeoordeling moet de verontreiniging tussen 5 en 10 jaar worden gesaneerd. Dit besluit verwijst naar Wbb-artikel 29, 37(oud).</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>30</SIKB0101-ID>
+		<Waarde>vaststellingVerontreinigingUrgentStartSaneringVoor2015</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een beschikking aangegeven dat de vastgestelde verontreiniging ernstig is. Gezien de risicobeoordeling moet vóór 1 januari 2015 zijn gestart met de saneringswerkzaamheden. Dit besluit verwijst naar Wbb-artikel 29, 37(oud).</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>31</SIKB0101-ID>
+		<Waarde>startenSanering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat gestart moet worden met de sanering van de ernstige verontreiniging. Dit besluit verwijst naar Wbb-artikel 29, 37(oud).</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>32</SIKB0101-ID>
+		<Waarde>vervolgenOpTermijn</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er op termijn een vervolgaanpak noodzakelijk is, bijvoorbeeld wanneer een locatie wordt heringericht. Het vervolg is afhankelijk van de dynamiek. De vorm van de aanpak is ook nog niet gedefinieerd. Dit besluit verwijst naar Wbb-arti.kel 29, 37 en 48.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>33</SIKB0101-ID>
+		<Waarde>uitvoerenHO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat een historisch onderzoek moet worden uitgevoerd om vast te stellen of op de locatie activiteiten aanwezig zijn (geweest) die de bodem hebben kunnen verontreinigen. Dit besluit verwijst naar Wbb-artikel 48.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>35</SIKB0101-ID>
+		<Waarde>opnemenMeerjarenprogrammaSanering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de locatie opgenomen wordt in het meerjaren programma bodemsanering van de provincie. Dit besluit verwijst naar Wbb-artikel 48.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>36</SIKB0101-ID>
+		<Waarde>vaststellingRapportageMonitoring</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de rapportage van de monitoring van kwaliteitsgegevens (grondwater, lucht of anders) voor, tijdens, of na de sanering, is vastgesteld. Dit besluit verwijst naar Wbb-artikel 39d</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>37</SIKB0101-ID>
+		<Waarde>vaststellingRapportageBeheerNazorg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de rapportage van van het beheer van de nazorg(maatregelen) is vastgesteld. Dit besluit verwijst naar Wbb-artikel 39d.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>38</SIKB0101-ID>
+		<Waarde>opstellenZorgplan</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er een zorgplan moet worden opgesteld. Dit kan zorg voor, tijdens of na de sanering betreffen. Dit besluit verwijst naar Wbb-artikel 39d.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>39</SIKB0101-ID>
+		<Waarde>opstellenEvaluatieverslag</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de rapportage van de evaluatie moet worden opgesteld. Dit besluit verwijst naar Wbb-artikel 39c.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>41</SIKB0101-ID>
+		<Waarde>instemmingPvaMonitoring</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat ingestemd wordt met het plan van aanpak inzake de monitoring van de ernstige verontreiniging. Dit besluit verwijst naar Wbb-artikel 39d.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>42</SIKB0101-ID>
+		<Waarde>instemmingInterimrapportSE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat ingestemd wordt met het interim rapport van de saneringsevaluatie van de ernstige verontreiniging. Dit besluit verwijst naar Wbb-artikel 39c.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>43</SIKB0101-ID>
+		<Waarde>instemmingZorgplan</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat ingestemd wordt met het zorgplan voor de ernstige verontreiniging. Dit besluit verwijst naar Wbb-artikel 39d.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>44</SIKB0101-ID>
+		<Waarde>geenInstemmingMonitoringRapport</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat niet ingestemd wordt met de monitoringsrapportage van de ernstige verontreiniging. Dit besluit verwijst naar Wbb-artikel 39d.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>49</SIKB0101-ID>
+		<Waarde>aanwijzingVerkennendOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat door middel van een aanwijzing, een derde is verplicht een verkennend onderzoek uit te voeren naar een eventuele verontreiniging. Deze verplichting is mogelijk bij algemene maatregel van bestuur. Dit besluit verwijst naar Wbb-artikel 71. NB. Ook geldt het Besluit Verbond.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>50</SIKB0101-ID>
+		<Waarde>aanwijzingNieuweVerontreiniging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit een aanwijzing gegeven aan een derde die niet van plan is (voldoende) maatregelen te treffen de vastgestelde nieuwe (ontstaan na 1 januari 1987) verontreiniging aan te pakken. De bevoegde overheid kan hierbij zowel om onderzoek, een saneringsplan als een sanering vragen. De aanwijzing zal veelal direct gericht zijn op sanering, aangezien een nieuwe verontreiniging volgens artikel 27 van de Wet bodembescherming direct ongedaan moet worden gemaakt. Dit besluit verwijst naar Wbb-artikel 27.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>52</SIKB0101-ID>
+		<Waarde>uitvoerenSanering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de sanering van de vastgestelde ernstige verontreiniging uitgevoerd moet worden. Dit besluit verwijst naar Wbb-artikel 48</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>53</SIKB0101-ID>
+		<Waarde>aanpassenSaneringssysteem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat het op de locatie aanwezige saneringssysteem dient te worden aangepast om de beoogde saneringsdoelstelling alsnog te halen. Dit besluit verwijst naar Wbb-artikel 48.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>55</SIKB0101-ID>
+		<Waarde>vaststellenRapportageHO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de rapportage van het historisch onderzoek, waarbij is vastgesteld of op de locatie activiteiten aanwezig zijn (geweest) die de bodem hebben kunnen verontreinigen, moet worden vastgesteld. Dit besluit verwijst niet naar een Wbb-artikel.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>56</SIKB0101-ID>
+		<Waarde>vaststellingVerontreinigingErnstigUrgentieNietBepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een beschikking aangegeven dat de bodem op de locatie ernstig is verontreinigd. De termijn waarop waarop de verontreiniging gesaneerd moet worden, is nog niet vastgesteld. Dit besluit verwijst naar Wbb-artikel 29.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>58</SIKB0101-ID>
+		<Waarde>ontheffingSP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er een ontheffing is verleend op het saneringsplan voor de ernstige verontreiniging op de locatie. Dit besluit verwijst naar Wbb-artikel 63i.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>59</SIKB0101-ID>
+		<Waarde>intrekkingMelding</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de melding voor een sanering wordt ingetrokken of is ingetrokken. Dit kan alleen voordat een besluit genomen wordt. Dit besluit verwijst naar Wbb-artikel 28. NB. Na beschikking niet meer mogelijk!</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>61</SIKB0101-ID>
+		<Waarde>vaststellingNazorgplan</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een beschikking aangegeven dat het opgestelde nazorgplan voor de sanering van de ernstige verontreiniging op de locatie is vastgesteld. Dit besluit verwijst naar Wbb-artikel 39d.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>62</SIKB0101-ID>
+		<Waarde>vaststellingVerontreinigingErnstigGeenRisicoBepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de bodem op de locatie ernstig is verontreinigd. De risico's van de verontreiniging voor de mens, ecologie en verspreiding zijn nog niet vastgesteld. Dit besluit verwijst naar Wbb-artikel 29</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>63</SIKB0101-ID>
+		<Waarde>vaststellingVerontreinigingErnstigGeenSpoed</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een beschikking aangegeven dat de bodem op de locatie ernstig is verontreinigd. Er is geen sprake van risico's voor mens, ecologie of verspreiding. Op de locatie is op termijn, of eerder bij graafwerkzaamheden, een vervolgonderzoek noodzakelijk om de aard en ernst van de verontreiniging vast te stellen. Dit besluit verwijst naar Wbb-artikel 29,37.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>64</SIKB0101-ID>
+		<Waarde>vaststellingVerontreinigingErnstigSpoed</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat de bodem op de locatie ernstig is verontreinigd. Er is sprake van risico's voor mens, ecologie of verspreiding. Een eventuele noodzakelijk sanering van de verontreiniging moet vóór 1 januari 2015 zijn gestart. Dit besluit verwijst naar Wbb-artikel 29, 37.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>65</SIKB0101-ID>
+		<Waarde>vaststellingSaneringsevaluatieBUS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een beschikking aangegeven dat een evaluatierapport van een melding Besluit Uniforme Sanering is vastgesteld. Dit besluit verwijst naar Wbb-artikel 14 Bus.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>70</SIKB0101-ID>
+		<Waarde>instellingTijdelijkeMaatregelBinnen1jaar</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat binnen één jaar na afgifte van de beschikking, waarin aangegeven is dat er sprake is van een geval van ernstige bodemverontreiniging, één of meerdere tijdelijke (beveiligings)maatregel(en) zijn ingesteld om blootstelling aan een verontreiniging te voorkomen of de bodem te beschermen. Dit besluit verwijst naar Wbb-artikel 37.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>71</SIKB0101-ID>
+		<Waarde>instellingTijdelijkeMaatregelBinnen5jaar</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat binnen 5 jaar na afgifte van de beschikking, waarin aangegeven is dat er sprake is van een geval van ernstige bodemverontreiniging, één of meerdere tijdelijke (beveiligings)maatregel(en) zijn ingesteld om blootstelling aan een verontreiniging te voorkomen of de bodem te beschermen. Dit besluit verwijst naar Wbb-artikel 37.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>72</SIKB0101-ID>
+		<Waarde>instellingTijdelijkeMaatregelNa5jaar</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat na 5 jaar na afgifte van de beschikking, waarin aangegeven is dat er sprake is van een geval van ernstige bodemverontreiniging, één of meerdere tijdelijke (beveiligings)maatregel(en) zijn ingesteld om blootstelling aan een verontreiniging te voorkomen of de bodem te beschermen. Dit besluit verwijst naar Wbb-artikel 37.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>73</SIKB0101-ID>
+		<Waarde>tijdelijkeMaatregelenOpgeheven</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat alle tijdelijke maatregelen zijn opgeheven. Dit besluit verwijst naar Wbb-artikel 37.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>74</SIKB0101-ID>
+		<Waarde>BUSmeldingCorrectAangeleverd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming (een provincie of rechtstreekse gemeente) heeft een BUS-melding ontvangen, die aan de vereisten van het Besluit Uniforme Saneringen voldoet.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>75</SIKB0101-ID>
+		<Waarde>BUSmeldingIncorrectAangeleverd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming (een provincie of rechtstreekse gemeente) heeft een BUS-melding ontvangen, die niet aan de vereisten van het Besluit Uniforme Saneringen voldoet.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>76</SIKB0101-ID>
+		<Waarde>instemmingAfwijkenSP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming (een provincie of rechtstreekse gemeente) heeft met een besluit aangegeven dat er is ingestemd met een afwijking van het origineel vastgestelde saneringsplan. Dit besluit verwijst naar Wbb-artikel 39.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>78</SIKB0101-ID>
+		<Waarde>instemmingPvaSanering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat ingestemd wordt met het plan van aanpak saneringen. Het plan van aanpak heeft geen directe status in de Wbb, wel moet op grond van artikel 27 bekend worden gemaakt welke maatregel (uit art. 13) men denkt te gaan nemen. Preventief kan het bevoegd gezag laten blijken of de te nemen maatregelen in haar zienswijze van de uitvoering van artikel 13 Wbb past.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>79</SIKB0101-ID>
+		<Waarde>instemmingMonitoringsrapport</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat ingestemd wordt met de monitoringsrapportage van de ernstige verontreiniging. Dit besluit verwijst naar Wbb-artikel 39d</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>80</SIKB0101-ID>
+		<Waarde>instemmingUitgevoerdeNazorg</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Instemmen uitgevoerde nazorg.</Omschrijving>
+	</Besluittype>
+	<Besluittype>
+		<SIKB0101-ID>84</SIKB0101-ID>
+		<Waarde>instemmingUitgevoerdeSaneringNieuwGeval</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft met een besluit aangegeven dat er ingestemd wordt met uitgevoerde sanering van een nieuw geval (na 1987). Dit besluit verwijst naar Wbb-artikel 27.</Omschrijving>
+	</Besluittype>
+</domeintabel>

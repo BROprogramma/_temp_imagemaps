@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registrationRequest
+        xmlns="http://www.broservices.nl/xsd/issld/1.0"
+        xmlns:sldcom="http://www.broservices.nl/xsd/sldcommon/1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.broservices.nl/xsd/issld/1.0 ../issld-messages.xsd">
+    <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.5 van de SLD en valideert tegen de XSD van de innameservice.
+        Het is niet gevalideerd door de innameservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
+        xsi:schemaLocation="http://www.broservices.nl/xsd/issld/1.0 https://schema.broservices.nl/xsd/issld/1.0/issld-messages.xsd"/>
+    -->
+    <sldcom:requestReference>Verzoek1</sldcom:requestReference>
+    <!--KVK nummer van de aanleverende partij-->
+    <sldcom:deliveryAccountableParty>1234567</sldcom:deliveryAccountableParty>
+    <sldcom:broId>BRO00001</sldcom:broId>
+    <!-- Kwaliteitsregime, voor nu alleen nog IMRBO/A-->
+    <sldcom:qualityRegime>IMBRO/A</sldcom:qualityRegime>
+    <sourceDocument>
+        <SLD_NewDecision>
+            <featureCollection>
+                <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="LIBTEST" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:immetingen="http://www.sikb.nl/immetingen" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 file:///C:/dev/SIKB0101_Protocol/XSDs%2014.7.0/imsikb0101_v14.7.0.xsd">
+                    <imsikb0101:metaData>
+                        <imsikb0101:application>urn:imsikb0101:Application:id:1</imsikb0101:application>
+                        <imsikb0101:date>2013-09-07</imsikb0101:date>
+                        <imsikb0101:organisation>De organisatie</imsikb0101:organisation>
+                        <imsikb0101:remarks> Voorbeeldbestand LIB</imsikb0101:remarks>
+                        <imsikb0101:reportDate>2013-07-07</imsikb0101:reportDate>
+                        <imsikb0101:sender>urn:imsikb0101:Bronhouders:id:54</imsikb0101:sender>
+                        <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:1</imsikb0101:supplier>
+                        <imsikb0101:version>14.7.0</imsikb0101:version>
+                        <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:5</imsikb0101:dataflow>
+                    </imsikb0101:metaData>
+                    <!--Dossier-->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Dossier gml:id="_400789D5-B212-4ED1-8A6F-897E72F6D316">
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>400789D5-B212-4ED1-8A6F-897E72F6D316</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:soilLocation xlink:href="#_8306BF06-4D30-4AC3-9928-B833E4CC9ECA"/>
+                            <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:42</imsikb0101:dataAdministrator>
+                            <imsikb0101:decisions>
+                                <imsikb0101:Decision>
+                                    <imsikb0101:characteristic>KENMERK00001112</imsikb0101:characteristic>
+                                    <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:42</imsikb0101:dataAdministrator>
+                                    <imsikb0101:decisionType>urn:imsikb0101:Besluit:id:35</imsikb0101:decisionType>
+                                    <imsikb0101:endTime>2023-03-28</imsikb0101:endTime>
+                                    <imsikb0101:identification>
+                                        <immetingen:NEN3610ID>
+                                            <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                            <immetingen:lokaalID>13d3b75d-c46b-4005-95ab-33e15bc0641c</immetingen:lokaalID>
+                                        </immetingen:NEN3610ID>
+                                    </imsikb0101:identification>
+                                    <imsikb0101:startTime>1976-08-13</imsikb0101:startTime>
+                                    <imsikb0101:statusOfDecision>urn:imsikb0101:besl_stat:id:2</imsikb0101:statusOfDecision>
+                                    <imsikb0101:remediations xlink:href="#_5f28bjjq-ue16-4kr2-ds9j-550ce0d21f8c"/>
+                                </imsikb0101:Decision>
+                            </imsikb0101:decisions>                            
+                        </imsikb0101:Dossier>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Remediation gml:id="_5f28bjjq-ue16-4kr2-ds9j-550ce0d21f8c">
+                            <imsikb0101:agreementDate>2022-11-15</imsikb0101:agreementDate>
+                            <imsikb0101:amountCleaned uom="urn:immetingen:Eenheid:id:264">300</imsikb0101:amountCleaned>
+                            <imsikb0101:amountDeposited uom="urn:immetingen:Eenheid:id:264">150</imsikb0101:amountDeposited>
+                            <imsikb0101:amountReused uom="urn:immetingen:Eenheid:id:264">125</imsikb0101:amountReused>
+                            <imsikb0101:amountStored uom="urn:immetingen:Eenheid:id:264">55</imsikb0101:amountStored>
+                            <imsikb0101:area uom="urn:immetingen:eenheid:id:51">26.32</imsikb0101:area>
+                            <imsikb0101:contourType>urn:imsikb0101:ContourType:id:1</imsikb0101:contourType>
+                            <imsikb0101:dataAdministrator>urn:imsikb0101:Bronhouders:id:32</imsikb0101:dataAdministrator>
+                            <imsikb0101:destinationAfterRemediation>urn:imsikb0101:gebruik:id:12</imsikb0101:destinationAfterRemediation>
+                            <imsikb0101:destinationBeforeRemediation>urn:imsikb0101:gebruik:id:12</imsikb0101:destinationBeforeRemediation>
+                            <imsikb0101:endTime>2023-11-08</imsikb0101:endTime>
+                            <imsikb0101:geometry/>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>www.sikb.nl</immetingen:namespace>
+                                    <immetingen:lokaalID>5f28bjjq-ue16-4kr2-ds9j-550ce0d21f8c</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:29">140</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:notification>urn:imsikb0101:melding:id:1</imsikb0101:notification>
+                            <imsikb0101:postRemediationValue>urn:imsikb0101:terugsaneerwaarde:id:2</imsikb0101:postRemediationValue>
+                            <imsikb0101:realizedVariationSubsoil>urn:imsikb0101:san_ondergrond:id:3</imsikb0101:realizedVariationSubsoil>
+                            <imsikb0101:realizedVariationTopsoil>urn:imsikb0101:san_bovengrond:id:5</imsikb0101:realizedVariationTopsoil>
+                            <imsikb0101:remarks>Opmerkingen bij deze sanering</imsikb0101:remarks>
+                            <imsikb0101:remediationReason>urn:imsikb0101:saneringsaanleiding:id:5</imsikb0101:remediationReason>
+                            <imsikb0101:startTime>2023-02-08</imsikb0101:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:187">80</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:volumeGroundwater uom="urn:immetingen:Eenheid:id:52">684</imsikb0101:volumeGroundwater>
+                            <imsikb0101:volumeSoil uom="urn:immetingen:Eenheid:id:264">178</imsikb0101:volumeSoil>
+                        </imsikb0101:Remediation>
+                        </imsikb0101:featureMember>
+                </imsikb0101:FeatureCollectionIMSIKB0101>
+            </featureCollection>
+        </SLD_NewDecision>
+    </sourceDocument>
+</registrationRequest>

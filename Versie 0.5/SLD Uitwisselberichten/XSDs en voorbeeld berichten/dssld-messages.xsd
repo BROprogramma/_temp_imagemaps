@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2012-2023 TNO Geologische Dienst Nederland
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+-->
+<xs:schema xmlns:dssld="http://www.broservices.nl/xsd/dssld/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:sldcom="http://www.broservices.nl/xsd/sldcommon/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/dssld/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0-1">
+    <xs:annotation>
+        <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+            <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.broservices.nl/xsd/sldcommon/1.0" schemaLocation="sldcommon.xsd"/>
+    <xs:import namespace="http://www.sikb.nl/imsikb0101" schemaLocation="imsikb0101_v14.7.1.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+    <xs:element name="dispatchDataResponse" type="dssld:DispatchDataResponseType">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht DispatchDataResponse is een specialisatie van de abstract klasse DispatchResponse uit de package brocommon, waaraan het een dispatchDocument toevoegt. Met dit bericht worden, als response op een DispatchDataRequest, de gegevens over een specifiek bodemonderzoek registratieobject verzonden naar de aanvrager.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="parseFault" type="sldcom:ParseFaultType" />
+    <xs:element name="dispatchDataRequest" type="sldcom:DispatchDataRequestType"/>
+    <xs:complexType name="DispatchDataResponseType">
+        <xs:complexContent>
+            <xs:extension base="sldcom:DispatchResponseType">
+                <xs:sequence>
+                    <xs:element name="dispatchDocument" type="sldcom:AbstractRegistrationObjectPropertyType" nillable="false" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element dispatchDocument bevat de gegevens van een bodemonderzoek registratieobject. Vanwege het polymorfe karakter is het type óf een BRODO uit de package brocom, óf een SLDODP, óf een SLDO uit de package dssad. Deze drie types hebben allen als gemeenschappelijke vader het type AbstractRegistrationObject uit de package brocom.
+Explanation: Het gegeven ontbreekt als de BRO geen registratieobject bevat met het in het dispatchDataRequest opgegegeven broId. Het gegeven is aanwezig en van het type BROD_DO als het registratieobject met de opgegeven broId uit registratie is genomen. Het gegeven is aanwezig en van het type SLDODP als het registratieobject met de opgegeven broId niet uit registratie is genomen en de afnemer tevens bronhouder en/of dataleverancier is van het registratieobject. Het gegeven is aanwezig en van het type SLD_O als het registratieobject met de opgegeven broId niet uit registratie is genomen en de afnemer niet bronhouder of dataleverancier is van het registratieobject.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="SLD_O" type="dssld:SLD_OType" substitutionGroup="dssld:SLD_O_DP">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het uitgiftedocument met de geregistreerde gegevens van een bodemonderzoek, dat wordt uitgeleverd als de afnemer niet de bronhouder of dataleverancier is van het registratieobject en het registratieobject niet uit registratie is genomen.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="SLD_OType">
+        <xs:complexContent>
+            <xs:extension base="dssld:SLD_O_DPType"/>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SLD_OPropertyType">
+        <xs:sequence minOccurs="1">
+            <xs:element ref="dssld:SLD_O"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="SLD_O_DP" type="dssld:SLD_O_DPType" substitutionGroup="sldcom:RegistrationObject">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het uitgiftedocument met de geregistreerde gegevens van een bodemonderzoek, dat wordt uitgeleverd als de afnemer tevens de bronhouder of dataleverancier is van het registratieobject, ongeacht of registratieobject uit registratie is genomen of niet.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="SLD_O_DPType">
+        <xs:complexContent>
+            <xs:extension base="sldcom:RegistrationObjectType">
+                <xs:sequence>
+                    <xs:element name="deliveryContext" type="sldcom:DeliveryContextType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>DeliveryContext</CodeListName>
+                                <CodeListURI/>
+                            </xs:appinfo>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="standardizedLocation" type="sldcom:StandardizedLocationV2Type" nillable="false" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="registrationHistory" type="sldcom:RegistrationHistoryType" nillable="false" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="featureCollection" type="imsikb0101:FeatureCollectionIMSIKB0101PropertyType" nillable="false" minOccurs="1" maxOccurs="1"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SLD_O_DPPropertyType">
+        <xs:sequence minOccurs="1">
+            <xs:element ref="dssld:SLD_O_DP"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+</xs:schema>

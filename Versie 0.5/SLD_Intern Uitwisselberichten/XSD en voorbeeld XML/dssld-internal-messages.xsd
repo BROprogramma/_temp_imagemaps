@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright 2012-2023 TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:dssld="http://www.broservices.nl/xsd/dssld-internal/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:sldcom="http://www.broservices.nl/xsd/sldcommon-internal/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/dssld-internal/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.5-1">
+    <xs:annotation>
+        <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+            <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/sldcommon-internal/1.0" schemaLocation="sldcommon-internal.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+    <xs:element name="parseFault" type="brocom:ParseFaultType"/>
+    <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType"/>
+    <xs:element name="SLD_O" type="dssld:SLD_OType" substitutionGroup="dssld:SLD_O_DP">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het uitgiftedocument met de geregistreerde gegevens van een bodemonderzoek, dat wordt uitgeleverd als de afnemer niet de bronhouder of dataleverancier is van het registratieobject en het registratieobject niet uit registratie is genomen.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="SLD_OType">
+        <xs:complexContent>
+            <xs:extension base="dssld:SLD_O_DPType"/>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SLD_OPropertyType">
+        <xs:sequence minOccurs="1">
+            <xs:element ref="dssld:SLD_O"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="dispatchDataResponse" type="dssld:DispatchDataResponseType">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht DispatchDataResponse is een specialisatie van de abstract klasse DispatchResponse uit de package brocommon, waaraan het een dispatchDocument toevoegt. Met dit bericht worden, als response op een DispatchDataRequest, de gegevens over een specifiek bodemonderzoek registratieobject verzonden naar de aanvrager.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="DispatchDataResponseType">
+        <xs:complexContent>
+            <xs:extension base="brocom:DispatchResponseType">
+                <xs:sequence>
+                    <xs:element name="dispatchDocument" type="brocom:AbstractRegistrationObjectPropertyType" nillable="false" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element dispatchDocument bevat de gegevens van een bodemonderzoek registratieobject. Vanwege het polymorfe karakter is het type óf een BRODO uit de package brocom, óf een SLDODP, óf een SLDO uit de package dssad. Deze drie types hebben allen als gemeenschappelijke vader het type AbstractRegistrationObject uit de package brocom.
+Explanation: Het gegeven ontbreekt als de BRO geen registratieobject bevat met het in het dispatchDataRequest opgegegeven broId. Het gegeven is aanwezig en van het type BROD_DO als het registratieobject met de opgegeven broId uit registratie is genomen. Het gegeven is aanwezig en van het type SLDODP als het registratieobject met de opgegeven broId niet uit registratie is genomen en de afnemer tevens bronhouder en/of dataleverancier is van het registratieobject. Het gegeven is aanwezig en van het type SLD_O als het registratieobject met de opgegeven broId niet uit registratie is genomen en de afnemer niet bronhouder of dataleverancier is van het registratieobject.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="SLD_O_DP" type="dssld:SLD_O_DPType" substitutionGroup="brocom:RegistrationObject">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het uitgiftedocument met de geregistreerde gegevens van een bodemonderzoek, dat wordt uitgeleverd als de afnemer tevens de bronhouder of dataleverancier is van het registratieobject, ongeacht of registratieobject uit registratie is genomen of niet.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="SLD_O_DPType">
+        <xs:complexContent>
+            <xs:extension base="brocom:RegistrationObjectType">
+                <xs:sequence>
+                    <xs:element name="deliveryContext" type="sldcom:DeliveryContextType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>DeliveryContext</CodeListName>
+                                <CodeListURI/>
+                            </xs:appinfo>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die de bodemlocatie heeft binnen de informatieketen milieukwaliteit.
+Explanation: De SIKB-identificatie is de SIKB invulling van het NEN3610-ID, en is een unieke identificatie in de vorm van een zogenaamde GUID (Globally Unique Identifier).</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="40"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="dossierIdSoilInformationsystem" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De code die de bodemlocatie heeft binnen het bodem informatiesysteem.
+Explanation: De code wordt aangemaakt als een locatie voor het eerst in een BIS wordt geregistreerd. De code is als volgt opgebouwd: code BIS-systeem - 2 letters geografische aanduiding (gemeente code) - 4 cijfers uniek volgnummer binnen het beheersgebied - 5 cijfers</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="11"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="standardizedLocation" type="brocom:StandardizedLocationV2Type" nillable="false" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="dossierIdLocalAuthority" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De code die door het bevoegd gezag Wet bodembescherming wordt gebruikt om de bodemlocatie te identificeren.
+Explanation: De code is als volgt opgebouwd: afkorting bevoegd gezag - 2 letters geografische aanduiding (gemeente code) - 4 cijfers uniek volgnummer binnen het beheersgebied - 5 cijfers Wanneer de bodemlocatie een gemeentelijke locatie betreft van een gemeente die geen bevoegd gezag Wbb is, ontbreekt het gegeven.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="11"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="registrationHistory" type="brocom:RegistrationHistoryType" nillable="false" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="name" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van de locatie.
+Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A is dit gegeven niet altijd vastgelegd.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="200"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="deliveredBoundary" type="gml:MultiSurfacePropertyType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begrenzing van de locatie op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.
+Explanation: De aangeleverde begrenzing is vastgelegd als een vlak of verzameling vlakken.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="currentStateWbb" type="sldcom:FollowUpWbbType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>followUpWbb</CodeListName>
+                                <CodeListURI/>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De actuele fase waarin de bodemlocatie zich bevindt binnen het kader van de Wet bodembescherming (Wbb).
+Explanation: De bodemlocatie doorloopt een aantal stadia. De stadia zijn gekoppeld aan de Wet bodembescherming (Wbb). De vervolgactie geeft aan in welk stadium de locatie zich bevindt. De vervolgactie wordt bepaald door het bevoegd gezag Wbb op basis van een besluit of op basis van de onderzoeksresultaten uit het milieuhygiënisch bodemonderzoek. Het kan voorkomen dat een niet bevoegd gezag de status 'voldoende onderzocht' (VervolgactieWbb ID = 20) heeft toegekend aan de bodemlocatie op basis van een milieuhygiënisch bodemonderzoek. Het gegeven kan een nieuwe waarde krijgen bij een verandering. In dat geval wordt de oude waarde in de registratie ondergrond overschreven en is niet meer direct beschikbaar voor afnemers. Onder IMBRO/A is de vervolgactie niet altijd vastgelegd, en kan het gegeven ontbreken.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="informationProvider" type="brocom:OrganizationType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die meer informatie kan verstrekken over de bodemlocatie als aanvulling op de aangeleverde gegevens, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+Explanation: Het gegeven kan een nieuwe waarde krijgen bij een verandering. In dat geval wordt de oude waarde in de registratie ondergrond overschreven en is niet meer direct beschikbaar voor afnemers. [OPEN PUNT] Organisatie worden in de BRO vastgelegd dmv het Kvk-nummer of EUID. In de huidige praktijk is de naam van de informatieverstrekker in een codelijst opgenomen (met ruim 500 organisaties).</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="activity" type="sldcom:ActivityType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="decision" type="sldcom:DecisionType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SLD_O_DPPropertyType">
+        <xs:sequence minOccurs="1">
+            <xs:element ref="dssld:SLD_O_DP"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+</xs:schema>

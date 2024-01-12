@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dssld:dispatchDataResponse 
+        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
+        xmlns:dssld="http://www.broservices.nl/xsd/dssld-internal/1.0" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.broservices.nl/xsd/dssld-internal/1.0 ../dssld-internal-messages.xsd">
+    <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.5 van de SLD en valideert tegen de XSD van de uitgifteservice.
+        Het is niet gevalideerd door de uitgifteservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
+        xsi:schemaLocation="http://www.broservices.nl/xsd/dssld-internal/1.0 https://schema.broservices.nl/xsd/dssld-internal/1.0/dssld-internal-messages.xsd"/>
+    -->
+    <brocom:responseType>dispatch</brocom:responseType>
+    <brocom:requestReference>Verzoek_1</brocom:requestReference>
+    <dssld:dispatchDocument>
+        <dssld:SLD_O_DP xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="id_001">
+            <brocom:broId>BRO0001</brocom:broId>
+            <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+            <dssld:deliveryContext codeSpace="urn:bro:sld:DeliveryContext">Kader Aanlevering</dssld:deliveryContext>
+            <dssld:identification>123456-1234-1234-1234</dssld:identification>
+            <dssld:dossierIdSoilInformationsystem>12345</dssld:dossierIdSoilInformationsystem>
+            <dssld:standardizedLocation>
+                <brocom:location>
+                    <gml:MultiSurface gml:id="id_002">
+                        <gml:surfaceMember>
+                            <gml:Polygon gml:id="id_0003">
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>
+                                        50.8748363 5.9284810
+                                        50.8757351 5.9284915
+                                        50.8766307 5.9292124
+                                        50.8757285 5.9299122
+                                        50.8748296 5.9299017
+                                        50.8748363 5.9284810
+                                    </gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:Polygon>
+                        </gml:surfaceMember>
+                    </gml:MultiSurface>
+                </brocom:location>
+                <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">WGS-84</brocom:coordinateTransformation>
+            </dssld:standardizedLocation>
+            <dssld:registrationHistory>
+                <brocom:objectRegistrationTime>2023-01-13T13:15:57+01:00</brocom:objectRegistrationTime>
+                <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</brocom:registrationStatus>
+                <brocom:corrected>nee</brocom:corrected>
+                <brocom:underReview>nee</brocom:underReview>
+                <brocom:deregistered>nee</brocom:deregistered>
+                <brocom:reregistered>nee</brocom:reregistered>
+            </dssld:registrationHistory>
+            <dssld:deliveredBoundary>
+                <gml:MultiSurface gml:id="id_0005">
+                    <gml:surfaceMember>
+                        <gml:Polygon gml:id="id_0004">
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList>
+                                        50.8748363 5.9284810
+                                        50.8757351 5.9284915
+                                        50.8766307 5.9292124
+                                        50.8757285 5.9299122
+                                        50.8748296 5.9299017
+                                        50.8748363 5.9284810
+                                    </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gml:surfaceMember>
+                </gml:MultiSurface>
+            </dssld:deliveredBoundary>
+        </dssld:SLD_O_DP>
+    </dssld:dispatchDocument>
+</dssld:dispatchDataResponse>

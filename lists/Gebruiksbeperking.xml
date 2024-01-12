@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Gebruiksbeperking>
+		<SIKB0101-ID>1</SIKB0101-ID>
+		<Waarde>handhavenLeeflaag</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: de op de locatie aangebrachte leeflaag moet te allen tijde in stand gehouden worden.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>2</SIKB0101-ID>
+		<Waarde>handhavenOpenVerharding</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: de op de locatie aangebrachte open verharding moet te allen tijde gehandhaafd blijven.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>3</SIKB0101-ID>
+		<Waarde>handhavenGeslotenVerharding</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: de op de locatie aangebrachte gesloten verharding moet te allen tijde gehandhaafd blijven.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>4</SIKB0101-ID>
+		<Waarde>verbodGrazenVee</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden om vee te laten grazen.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>5</SIKB0101-ID>
+		<Waarde>verbodGewasteelt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden om gewassen te telen.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>6</SIKB0101-ID>
+		<Waarde>verbodBouwactiviteiten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden om opstallen te bouwen.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>7</SIKB0101-ID>
+		<Waarde>verbodGraafactiviteiten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden graafactiviteiten uit te voeren.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>8</SIKB0101-ID>
+		<Waarde>verbodBetredenLocatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op het is verboden om de locatie te betreden.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>9</SIKB0101-ID>
+		<Waarde>verbodOnttrekkingGrondwater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden grondwater te onttrekken.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>10</SIKB0101-ID>
+		<Waarde>aanleggenGrondwaterOnttrekkingssysteem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet een grondwater onttrekkingssysteem worden aangelegd.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>11</SIKB0101-ID>
+		<Waarde>aanleggenLuchtverversingssysteem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet een luchtverversingssysteem worden aangelegd.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>12</SIKB0101-ID>
+		<Waarde>verbodAanlegVeedrenkputten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden veedrenkputten aan te leggen.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>13</SIKB0101-ID>
+		<Waarde>onderzoekenDrinkwaterkwaliteit</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet op korte termijn worden onderzocht of de vastgestelde verontreiniging invloed heeft (gehad) op de drinkwaterleidingen en de kwaliteit van het drinkwater.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>14</SIKB0101-ID>
+		<Waarde>monitoringGrondwater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet de vastgestelde grondwaterverontreiniging worden gemonitoord.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>15</SIKB0101-ID>
+		<Waarde>monitoringLucht</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet de luchtkwaliteit worden gemonitoord.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>16</SIKB0101-ID>
+		<Waarde>verbodVerwijderenNazorgvoorzieningen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie zijn na de sanering voor de restverontreiniging nazorgvoorzieningen aangebracht. Het is verboden deze te verwijderen of te beschadigen.</Omschrijving>
+	</Gebruiksbeperking>
+	<Gebruiksbeperking>
+		<SIKB0101-ID>17</SIKB0101-ID>
+		<Waarde>geenGebruiksbeperking</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het bevoegd gezag Wet bodembescherming heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie geen gebruiksbeperkingen gelden.</Omschrijving>
+	</Gebruiksbeperking>
+</domeintabel>

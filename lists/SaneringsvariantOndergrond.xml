@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SaneringsvariantOndergrond>
+		<SIKB0101-ID>1</SIKB0101-ID>
+		<Waarde>stabielGeenRestverontreiniging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt een stabiele eindsituatie gerealiseerd zonder restverontreiniging, zorgmaatregelen of monitoring. Dit betreft een volledige verwijdering die zowel 'direct' als na maximaal 30 jaar kan worden gerealiseerd</Omschrijving>
+	</SaneringsvariantOndergrond>
+	<SaneringsvariantOndergrond>
+		<SIKB0101-ID>3</SIKB0101-ID>
+		<Waarde>stabielKleineRestverontreiniging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt een stabiele eindsituatie gerealiseerd met een kleine restverontreiniging en passieve zorg. Na de sanering is het niet noodzakelijk de bodemverontreiniging te monitoren. 'klein' betekent: niet ernstig restverontreinigingen met een relatief beperkt volume (&lt; 5.000m3 grond tussen S-T-waarde, &lt; 1.000 m3 grond tussen T-I-waarde, &lt; 10.000m3 grondwater tussen S-T-waarde, &lt; 1.000 m3 grondwater tussen T-I-waarde)</Omschrijving>
+	</SaneringsvariantOndergrond>
+	<SaneringsvariantOndergrond>
+		<SIKB0101-ID>5</SIKB0101-ID>
+		<Waarde>stabielGroteRestverontreiniging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt een stabiele eindsituatie gerealiseerd met een grote restverontreiniging en passieve zorg. Na de sanering is het niet noodzakelijk de bodemverontreiniging te monitoren. 'groot' betekent: ernstige restverontreinigingen en de niet-ernstige restverontreinigingen met een relatief groot volume (groter dan de bij 'klein' genoemde grenswaarden. Puur product wordt altijd ingedeeld als 'groot'</Omschrijving>
+	</SaneringsvariantOndergrond>
+	<SaneringsvariantOndergrond>
+		<SIKB0101-ID>7</SIKB0101-ID>
+		<Waarde>restverontreinigingMonitoring</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt geen stabiele eindsituatie gerealiseerd. Er moet actieve nazorg plaatsvinden in de vorm van een eeuwigdurende bewaking door middel van montioringssysteem</Omschrijving>
+	</SaneringsvariantOndergrond>
+	<SaneringsvariantOndergrond>
+		<SIKB0101-ID>8</SIKB0101-ID>
+		<Waarde>restverontreinigingIBC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt geen stabiele eindsituatie gerealiseerd. Er moet actieve nazorg plaatsvinden in de vorm van het actief beheersen en/of isoleren (IBC) van de verontreiniging en monitoren ter voorkoming van risico's en verspreiding</Omschrijving>
+	</SaneringsvariantOndergrond>
+	<SaneringsvariantOndergrond>
+		<SIKB0101-ID>9</SIKB0101-ID>
+		<Waarde>nvt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is geen saneringsvariant voor de ondergrond van toepassing</Omschrijving>
+	</SaneringsvariantOndergrond>
+</domeintabel>

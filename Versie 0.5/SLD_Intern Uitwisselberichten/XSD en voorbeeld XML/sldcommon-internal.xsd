@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright 2012-2023 TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+<xs:schema xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           xmlns:sldcom="http://www.broservices.nl/xsd/sldcommon-internal/1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.broservices.nl/xsd/sldcommon-internal/1.0"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="0.5-1">
+   <xs:import namespace="http://www.opengis.net/gml/3.2"
+              schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" 
+              schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+   <xs:element name="Activity"
+               type="sldcom:ActivityType"
+               substitutionGroup="gml:AbstractFeature"/>
+   <xs:complexType name="ActivityType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De unieke identificatie van het besluit in de registratie ondergrond.
+Explanation: Dit is de unieke identificatie, in de vorm van een zogenaamde GUID (Globally Unique Identifier), die binnen de informatieketen milieukwaliteit aan het besluit is toegekend.</xs:documentation>
+                  </xs:annotation>
+                  <xs:simpleType>
+                     <xs:restriction base="xs:string">
+                        <xs:maxLength value="40"/>
+                     </xs:restriction>
+                  </xs:simpleType>
+               </xs:element>
+               <xs:element name="activity"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sldcom:UBIcodeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>UBIcode</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type activiteit aangeduid met de UBI-code.
+Explanation: In Nederland wordt de uniforme bron indeling (UBI) gebruikt voor de aanduiding van historische activiteiten.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:element name="Decision"
+               type="sldcom:DecisionType"
+               substitutionGroup="gml:AbstractFeature"/>
+   <xs:complexType name="DecisionType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De unieke identificatie van het besluit in de registratie ondergrond.
+Explanation: Dit is de unieke identificatie, in de vorm van een zogenaamde GUID (Globally Unique Identifier), die binnen de informatieketen milieukwaliteit aan het besluit is toegekend.</xs:documentation>
+                  </xs:annotation>
+                  <xs:simpleType>
+                     <xs:restriction base="xs:string">
+                        <xs:maxLength value="40"/>
+                     </xs:restriction>
+                  </xs:simpleType>
+               </xs:element>
+               <xs:element name="characteristic"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het kenmerk van het document waarin het besluit is vastgelegd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="decisionType"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sldcom:DecisionTypeType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>DecisionType</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type besluit dat door het bevoegd gezag Wet Bodembescherming is genomen.
+Explanation: Dat zijn besluiten genomen in het kader van de Wet bodembescherming.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="effectiveDate" type="brocom:PartialDateType" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het besluit in werking is getreden.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="executedRemediation"
+                           nillable="false"
+                           type="sldcom:ExecutedRemediationType"/>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:element name="ExecutedRemediation"
+               type="sldcom:ExecutedRemediationType"
+               substitutionGroup="gml:AbstractFeature"/>
+   <xs:complexType name="ExecutedRemediationType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="identification"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string"/>
+               <xs:element name="compartment"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sldcom:CompartmentType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>Compartment</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="remediationBoundary"
+                           type="gml:MultiSurfacePropertyType"
+                           minOccurs="1"
+                           maxOccurs="1"/>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="DecisionTypeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sld:DecisionType"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="CompartmentType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sld:Compartment"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="CoordinateTransformationType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sld:CoordinateTransformation"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="DeliveryContextType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sld:DeliveryContext"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="UBIcodeType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sld:UBIcode"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="FollowUpWbbType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sld:FollowUpWbb"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+</xs:schema>
+
