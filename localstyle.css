@@ -15,7 +15,7 @@ section.generic {
     border-left-width: .5em;
     border-left-style: solid;
     border-color: #A1A1A1;
-    padding: 25px;
+    padding: .5em;
 }
 
 /******************************************************************************/
@@ -37,4 +37,39 @@ th, td {
     border: 1px inset #CCCCCC;
     hyphens: auto;
     padding: 0.25em;
+}
+
+/******************************************************************************/
+/*                                Logo style                                  */
+/******************************************************************************/
+
+
+.logo { 
+  float: none !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important; 
+  border-bottom: 0px !important;
+  width: 100% !important;
+}
+
+/******************************************************************************/
+/*                                Text alignment style                        */
+/******************************************************************************/
+p {
+ text-align: justify;  
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	width: auto;
+	height: auto;	
+}
+
+
+:is(h1,h2,h3,h4,h5,h6,h7)+a.self-link {
+
+padding: 25px;
+
 }
